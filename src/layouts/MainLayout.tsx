@@ -6,7 +6,7 @@ export function MainLayout() {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
 
-      <main className="max-w-5xl mx-auto px-[30px] py-6">
+      <main className="max-w-6xl mx-auto px-[20px] md:px-[30px] py-6">
         <Outlet />
       </main>
     </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { ProductCard } from "@/components/ui/ProductCard"
 import { BrandHeader } from "@/components/ui/BrandHeader"
@@ -38,13 +39,14 @@ export default function Profile() {
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-[30px]">
           {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              title={product.name}
-              image={`${import.meta.env.BASE_URL}${product.image}`}
-              price={`$${product.price}`}
-              soldOut={product.id % 3 === 0}
-            />
+            <Link key={product.id} to={`/product/${product.id}`}>
+              <ProductCard
+                title={product.name}
+                image={`${import.meta.env.BASE_URL}${product.image}`}
+                price={`$${product.price}`}
+                soldOut={product.id % 3 === 0}
+              />
+            </Link>
           ))}
         </div>
       )}
