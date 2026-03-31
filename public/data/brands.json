@@ -1,0 +1,51 @@
+[
+  {
+    "id": "vanta-form",
+    "name": "Cosmic Garments",
+    "description": "Cosmic Garments is a contemporary apparel label focused on modular garments and material-driven design. The brand operates at the intersection of technical outerwear and everyday essentials, developing products through an iterative process of construction, wear testing, and refinement.\n\nEach collection explores the relationship between structure and movement, with an emphasis on fabric performance, garment dyeing techniques, and functional detailing. The design language prioritizes neutral palettes, adaptable silhouettes, and seasonless layering systems.",
+    "products": [
+      {
+        "id": 1,
+        "name": "Modular Utility Vest",
+        "description": "A lightweight utility vest constructed from technical nylon with a breathable mesh lining. Designed with modular front panels and concealed compartments for everyday functionality. The silhouette is relaxed, allowing for layering across seasons while maintaining a structured form.",
+        "price": 120,
+        "image": "assets/profile/untitled1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Panelled Indigo Tee",
+        "description": "Short sleeve t-shirt crafted from mid-weight cotton jersey with tonal panel construction. The garment is dyed using a washed indigo process, giving subtle variation in color and depth. Cut in a slightly oversized fit with dropped shoulders for a relaxed drape.",
+        "price": 65,
+        "image": "assets/profile/untitled2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Graphic Archive Tee",
+        "description": "Cotton t-shirt featuring a vintage-inspired graphic print developed from archival material. The fabric is garment-dyed for a soft hand feel and slightly faded appearance. Designed with a classic fit that sits comfortably on the body.",
+        "price": 55,
+        "image": "assets/profile/untitled3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Statement Print Tee",
+        "description": "Minimal short sleeve t-shirt with front typographic print. Made from premium cotton jersey with a smooth finish and structured feel. The design balances subtle messaging with clean construction, making it suitable for everyday wear.",
+        "price": 70,
+        "image": "assets/profile/untitled4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Brushed Stripe Long Sleeve",
+        "description": "Long sleeve top made from brushed cotton fabric with a soft, worn-in texture. Features a horizontal stripe detail across the chest and arms. The fit is regular with slightly extended sleeves, offering both comfort and a refined casual look.",
+        "price": 85,
+        "image": "assets/profile/untitled5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Technical Windbreaker Jacket",
+        "description": "Lightweight windbreaker jacket constructed from water-resistant synthetic fabric. Designed with adjustable collar detailing and functional pocket placement. The silhouette is slightly cropped with elasticated hems, providing both protection and mobility.",
+        "price": 150,
+        "image": "assets/profile/untitled6.png"
+      }
+    ]
+  }
+]
